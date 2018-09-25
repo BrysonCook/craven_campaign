@@ -24,3 +24,34 @@ img {
 	margin-right: auto;
 	width: 20%;
 }
+
+p {
+	text-align: center;
+	color: 233,227,212;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+table, th, td {
+	border: 3px rgb(236,128,40);
+}
+
+.pagelinks {
+	text-align: center;
+	color: rgb(236,138,40);
+}
+
+#para1 {
+	text-align: center;
+	color: black;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	display: block;
+	text-decoration: none;
+}
