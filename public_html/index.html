@@ -5,42 +5,77 @@
 
  <head>
      <title>Craven Campaign</title>
-     <link rel="stylesheet" type="text/css" href="style.css">
+
+    <!-- This says our CSS is compatible with phones, and phones
+         don't need to scale it strangely. -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Main CSS styles for Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+
+   
+
+    <!-- If you don't like how sandstone looks, go here and see other themes
+         that are available:
+         https://bootswatch.com/
+
+         You can replace the 'optional theme' with links from the page below
+         to get that theme:
+         https://www.bootstrapcdn.com/bootswatch/
+    -->
+    
+
 
  </head>
 
  <body>
+   <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">Simpson College</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="aboutcraven.html">About</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="events.html">Events</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="news.html">News</a>
+
+          <li class="nav-item">
+            <a class="nav-link" href="donatetoday.html">Donate</a>
+
+          <li class="nav-item">
+            <a class="nav-link" href="contactinfo.html">Contact</a> 
+         
+        </ul>
+
+      </div>
+    </nav>
   <header>
    <h1 style="color:rgb(236,138,40);margin-left:30px">Craven Campaign </h1>
    <img src="images/SC.jpeg" alt="Craven Picture" />
   </header>
-        
-    
-    <h1>Page Links</h1>
-    <nav>
-       <ul>
-           <li>
-               <a href="index.html">Home</a>
-           </li>
-           <li>
-               <a href="aboutcraven.html">About Craven</a>
-           </li>
-           <li>
-               <a href='events.html'>Events</a>
-           </li>
-           <li>
-               <a href='news.html'>News</a>
-           </li>
-           <li>
-               <a href='donatetoday.html'>Donate Today</a>
-           </li>
-               <li><a href='contactinfo.html'>Contact Info</a>
-           </li>
-       </ul>
-  </nav>
-    
+      
     <h2>Vote Craven for President!</h2>
     <img alt='Craven Picture' src='images/signPic.png' width="50%" height="50%">
+
+     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+
     
     <footer>
             <a href='https://www.facebook.com/'>Facebook</a>
