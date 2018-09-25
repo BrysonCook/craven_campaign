@@ -1,11 +1,12 @@
 
 
 body{
-	background-color:#E4FFFF;
+	background-color: #FFFFFF;
 }
 
 p{
 	font-size: 16px;
+	font-family: arial, sans-serif;
 }
 
 h1{
@@ -15,3 +16,58 @@ h1{
 #titlefollowup {
 	text-align: center;
 }
+
+.classSelector{
+	font-size: 16px;
+}
+
+.borders{
+	border:1px solid black;
+	
+	display: inline-block;
+}
+
+.centerPhoto{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 20%
+}
+
+.donatePic
+{
+	display: block;
+	
+	margin-right: auto;
+	width: 40%	
+}
+
+table, th,td {
+	border: 2px solid black;
+	border-collapse: collapse;
+	text-align: center;
+	background-color: #B6D6F2
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #010A26;
+  font-family: arial,sans-serif;
+}
+
+nav li {
+  float: left;
+}
+
+nav li a {
+  display: block;
+  color: #E83338;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+	
+

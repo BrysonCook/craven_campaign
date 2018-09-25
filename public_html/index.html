@@ -3,27 +3,57 @@
 
  <head>
 	<style>
-		body{
-			background-color:#E4FFFF;
+		nav ul 
+		{
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
+			overflow: hidden;
+			background-color: #010A26;
+			font-family: arial,sans-serif;
 		}
-		h2{
+
+		nav li 
+		{
+			float: left;
+		}
+
+		nav li a 
+		{
+			display: block;
+			color: #E83338;
+			text-align: center;
+			padding: 14px 16px;
+			text-decoration: none;
+		}
+		body
+		{
+			background-color:#B6D6F2;
+		}
+		h2
+		{
 			font-size: 30px;
 		}
+		.photoCenter
+		{
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+			width: 20%
+		}
+		.cravenPic
+		{
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+			width: 50%
+		}
 	</style>
-    <title>Craven Campaign</title>
+	<title>Craven Campaign</title>
  </head>
 
  <body>
-  <header>
-   <!--STYLE CHANGE HERE-->
-   <h1 style="text-align:center;font-size: 45px;">Craven Campaign </h1>
-   <p id="titlefollowup"> Vote for the best cadidate, which is obviously Craven! <!--change 10--></p>
-   
-   <img src="images/SC.jpeg" alt="Craven Picture" />
-  </header>
-    
-    <h1>Page Links</h1>
-    <nav>
+	<nav>
        <ul>
            <li>
                <a href="index.html">Home</a>
@@ -43,10 +73,17 @@
                <li><a href='contactinfo.html'>Contact Info</a>
            </li>
        </ul>
-  </nav>
-    
-    <h2>Vote Craven for President!</h2>
-    <img alt='Craven Picture' src='images/signPic.png' width="50%" height="50%">
+	</nav>
+	<header>
+		<!--STYLE CHANGE HERE-->
+		<h1 style="text-align:center;font-size: 45px;">Craven Campaign </h1>
+		<p style="text-align:center"> Vote for the best cadidate, which is obviously Craven! <!--change 10--></p>
+   
+		<img src="images/SC.jpeg" alt="Craven Picture" class="photoCenter"/>
+	</header>
+       
+	<h2 style="text-align:center">Vote Craven for President!</h2>
+	<img alt='Craven Picture' src='images/signPic.png' class="cravenPic">
     
     <footer>
             <a href='https://www.facebook.com/'>Facebook</a>
