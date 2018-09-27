@@ -9,14 +9,27 @@
 		<!-- Main CSS styles for Bootstrap -->
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.1.3/sandstone/bootstrap.min.css">
+	<style>
+		.mycolor {
+        background-color: #EEEEEE;
+        border-style: solid;
+        border-width: 1px;
+		}
+		.center {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 20%;
+		}
+	</style>
  </head>
 
  <body>
-	<nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="#">Craven Campaign</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
+		<nav class="navbar navbar-expand-lg navbar-light bg-light">
+			<a class="navbar-brand" href="#">Craven Campaign</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
 
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
@@ -47,33 +60,60 @@
 
 	</div>
                
-        </nav>   
+		</nav>   
+	<div>
 		
-	<header>
-		<!--STYLE CHANGE HERE-->
-		<h1 style="text-align:center;font-size: 45px;">Craven Campaign </h1>
-		<p style="text-align:center"> Vote for the best cadidate, which is obviously Craven! <!--change 10--></p>
+		<header>
+			<div class="jumbotron">
+				<h1 class="display-4">Craven Campaign</h1>
+				<p class="lead">Vote for the best Cadidate, which is obviously Craven!</p>
+				<hr class="my-4">
+				<p>The best president for the job</p>
+				<p class="lead">
+					<a class="btn btn-primary btn-lg" href="donatetoday.html" role="button">Donate Today!</a>
+				</p>
+			</div>
    
-		<img src="images/SC.jpeg" alt="Craven Picture"/>
-	</header>
-       
-	<h2>Vote Craven for President!</h2>
-	<img alt='Craven Picture' src='images/signPic.png' width = "50%" height = "50%">
-	
-    <footer>
+			<img src="images/SC.jpeg" alt="Craven Picture" class="center"/>
+		</header>
+		<div class="container">
+			<div class="row">
+				<div class="mycolor col-12 col-md-6">
+					<h2>Vote Craven for President!</h2>
+					<img alt='Craven Picture' src='images/signPic.png' width = "80%" height = "80%">
+				</div>
+				<div class="mycolor col-12 col-md-6">
+					<h2>Here is a few reasons you should vote:</h2>
+					<p>There are many reasons you should vote for Craven.  He is a very funny guy who tells puns and jokes in class to get the mood up.
+					He cares about all students and is an amazing professor.</p> 
+				
+					<p>"I have had him as an advisor since Freshman year and he has been nothing but helpful.  He has helped me out with my major and 
+					dealing with classes, which ones to take etc.  I do not think I would have made it out of college without his help."<br> -Riley Espersen</p>
+				</div>
+			</div>
+		</div>
+		
+		<div class="alert alert-primary alert-dismissible fade show" role="alert">
+			<strong>Donate Now!</strong> Donate using our Donation Page, any amount will help.
+			<button type="button" class="close" data-dismiss="alert" aria-label="Close">
+			<span aria-hidden="true">&times;</span>
+			</button>
+		</div>
+		
+		<footer>
             <a href='https://www.facebook.com/'>Facebook</a>
 
             <a href='https://www.twitter.com/'>Twitter</a>
 
             <a href='https://www.linkedin.com/'>Linkedin</a>
 
-    </footer>
+		</footer>
 	
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-	
+		<!-- Optional JavaScript -->
+		<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+	</div>
     </body>
 </html>
